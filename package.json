@@ -1,12 +1,19 @@
 {
   "name": "quick-covid-trends",
   "version": "0.1.0",
-  "private": true,
+  "license": "BSD 3-Clause",
+  "author": {
+    "name": "Almer Mendoza",
+    "email": "atmalmer23@gmail.com"
+  },
+  "readme": "README.md",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "chartist": "^0.11.4",
     "react": "^16.13.0",
+    "react-chartist": "^0.14.3",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
   },

@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// TODO import when data table is polished
+// import DataTable from './components/DataTable';
+import TrendsVisualization from './components/TrendsVisualization';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className="container">
+        {/* TODO improve data table probably to filter */}
+        {/* <DataTable /> */}
+        <TrendsVisualization />
+      </main>
     </div>
   );
 }
