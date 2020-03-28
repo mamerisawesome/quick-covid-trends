@@ -1,5 +1,7 @@
 # Quick COVID-19 Reports
 
+> Quick Note: in its current state, it does not try to answer meaningful questions. The goal is to create a React JS codebase from a COVID-19 Philippines data source. How you want to empower that data is up to those who will improve this project (or if I get the time, I might take a jab at it 😉).
+
 As with the increasing number of cases with COVID-19, this repository was created as an experiment to see if we can extract meaningful trends from the data that we know so far.
 
 To help us out, we're using a dataset collated in in Google Sheet (all credit goes to John Rich Nicdao). The sheet is also updated through the `Data Science Philippines Discussion Group`.
